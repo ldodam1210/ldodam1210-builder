@@ -11,8 +11,9 @@ const pretendard = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "랜딩 페이지 — 곧 열립니다",
-  description: "AI 프로덕트 빌더 클럽 3기",
+  title: "헤어띵크 — 커트 레시피를 3D 로 설계하세요",
+  description:
+    "종이 도식과 마네킹 사진 대신, 3D 머리 위에서 패널을 설계하고 저장하는 헤어 컷트 강사용 도구",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
